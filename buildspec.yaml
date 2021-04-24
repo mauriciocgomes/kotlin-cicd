@@ -4,3 +4,7 @@ phases:
       commands:
       - echo building
       - mvn package
+artifacts:
+    files:
+    - build/libs/helloworld-0.0.1-SNAPSHOT.jar
+    discard-paths: yes
